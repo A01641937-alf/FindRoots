@@ -57,6 +57,22 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
+    if (a == 0) {
+        if (b != 0) {
+            double x = -c / b;
+            std::cout << "{" << x << "}" << std::endl;
+        }
+        else {
+            if (c != 0) {
+                std::cerr << "{}" << std::endl;
+            }
+            else {
+                std::cerr << "Any value of x is a solution." << std::endl;
+            }
+        }
+        return 0;
+    }
+
     std::vector<double> roots = findRoots(a, b, c);
 
     if (roots.empty()) {
