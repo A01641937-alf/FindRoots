@@ -1,0 +1,3 @@
+C:/Users/alfon/source/repos/FindRoots/build/CMakeFiles/findroots.dir
+C:/Users/alfon/source/repos/FindRoots/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/alfon/source/repos/FindRoots/build/CMakeFiles/ZERO_CHECK.dir

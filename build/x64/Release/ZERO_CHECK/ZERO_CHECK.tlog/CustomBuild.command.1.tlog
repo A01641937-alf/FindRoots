@@ -1,0 +1,10 @@
+^C:\USERS\ALFON\SOURCE\REPOS\FINDROOTS\BUILD\CMAKEFILES\84EF9013E405022E99FADBB87312FE15\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alfon/source/repos/FindRoots -BC:/Users/alfon/source/repos/FindRoots/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/alfon/source/repos/FindRoots/build/findroots.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
