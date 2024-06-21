@@ -49,11 +49,11 @@ El programa `findroots.exe` toma tres argumentos que corresponden a los coeficie
 
 3. **Manejo de Casos Especiales:**
     - **Coeficiente $\(a = 0\)$:**
-        - Si $\(a = 0\)$, el polinomio no es cuadrático. En este caso, se soluciona la ecuación lineal $\(bx + c = 0\)$, siempre que $\(b \neq 0\)$, como:
+        - $Si \(a = 0\)$, el polinomio no es cuadrático. En este caso, se soluciona la ecuación lineal $\(bx + c = 0\)$, siempre que $\(b \neq 0\)$, como:
         $\[
         x = \frac{{-c}}{b}
         \]$
-        - Si $\(b = 0\)$, el programa imprime un mensaje indicando que la ecuación no tiene solución (si $\(c \neq 0\)$) o que cualquier valor de $\(x\)$ es solución (si $\(c = 0\)$).
+        - $Si \(b = 0\)$, el programa imprime un mensaje indicando que la ecuación no tiene solución (si $\(c \neq 0\)$) o que cualquier valor de $\(x\)$ es solución (si $\(c = 0\)$).
 
 El programa imprime las raíces calculadas en la consola, proporcionando un método simple y efectivo para resolver polinomios cuadráticos.
 
