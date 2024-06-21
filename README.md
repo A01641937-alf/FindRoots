@@ -53,7 +53,7 @@ El programa `findroots.exe` toma tres argumentos que corresponden a los coeficie
         $\[
         x = \frac{{-c}}{b}
         \]$
-        - $Si \(b = 0\)$, el programa imprime un mensaje indicando que la ecuación no tiene solución $(si \(c \neq 0\)$) o que cualquier valor de $\(x\)$ es solución $(si \(c = 0\)$).
+        - $Si \(b = 0\)$, el programa imprime un mensaje indicando que la ecuación no tiene solución $(si \(c \neq 0\))$ o que cualquier valor de $\(x\)$ es solución $(si \(c = 0\))$.
 
 El programa imprime las raíces calculadas en la consola, proporcionando un método simple y efectivo para resolver polinomios cuadráticos.
 
